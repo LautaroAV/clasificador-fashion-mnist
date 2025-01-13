@@ -1,0 +1,38 @@
+.stApp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.stButton, .stImage, .stWrite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .stApp {
+        justify-content: center;
+        align-items: center;
+    }
+    .stImage {
+        margin-top: 20px;
+    }
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(14, 17, 23);
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
